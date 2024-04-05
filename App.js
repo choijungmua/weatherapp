@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Hellloooooooo</Text>
-      <StatusBar style="auto" />
+      <StatusBar style="inverted" />
     </View>
   );
 }
@@ -17,7 +17,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "gray",
     alignItems: "center",
     justifyContent: "center",
   },
